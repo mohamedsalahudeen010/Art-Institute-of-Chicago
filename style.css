@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+body{
+    background-color: rgba(198, 184, 184, 0.507);
+}
+.container{
+    background-image: linear-gradient(to right,rgba(150, 137, 137, 0.628) ,rgb(123, 123, 107),rgb(165, 179, 170));
+    padding: 0.5rem;
+    margin: 1rem auto;
+    width: 100vw; 
+    height: auto;
+    
+
+}
+
+img{
+width: 20%;
+height: 20%;
+float: left;
+
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap; 
+    color:rgba(32, 32, 57, 0.74) ;
+}
+#page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.heading1{
+    padding-top: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+}
+.heading2{
+    padding: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+}
+.heading3{
+    width: auto;
+}
+
+.heading4{
+    width: auto;
+}
+.iframe{
+    padding-top: 1rem;
+    width: 100%;
+    height: auto;
+}
+iframe{
+    
+    width: 50%;
+    height: 20rem;
+    margin-bottom: 1rem;
+}
+.page-link{
+    background-image: linear-gradient(to right,rgb(127, 166, 143),rgba(107, 107, 140, 0.74));
+    color: blanchedalmond;
+}
+.card{
+    background-image: linear-gradient(to right,rgb(84, 173, 120),rgba(32, 32, 57, 0.74));
+    width: 22vw;
+    height: 45vh;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px 5px black;
+}
+.card-header{
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color:rgba(0, 0, 0, 0.927);
+    color: blanchedalmond;
+    width: auto;
+    height: 30%;
+    border-radius: 10rem;
+}
+
+
+.btn{
+    width: 60%;
+    padding: 0.5rem;
+    background-color: black;
+    color:rgb(173, 161, 84) ;
+    border-radius: 1rem;
+}
+
+.btn:hover{
+    background-color: rgb(208, 187, 228);
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+#temp{
+    font-weight: bold;
+   padding-bottom: 1.5rem;
+}
